@@ -36,7 +36,7 @@ This repository covers the following design patterns:
 ## Folder Structure
 
 ```
-project_16251_designpattern01/
+project_16251_dpfilesystem/
 ├── src/
 │   ├── mp/
 │   │   └── exercise/
@@ -55,13 +55,13 @@ project_16251_designpattern01/
 │   │           └── FileSystemVisitorAdapter.java
 │   └── utils/
 └── tests/
-    ├── mp/
-    │   └── exercise/
-    │       └── filesystem/
-    │           ├── FileSystemDirectoryTest.java
-    │           ├── FileSystemFileTest.java
-    │           └── MockFileSystemResourceObserver.java
-└── README.md
+    └── mp/
+        └── exercise/
+            └── filesystem/
+                ├── FileSystemDirectoryTest.java
+                ├── FileSystemFileTest.java
+                └── MockFileSystemResourceObserver.java
+
 ```
 
 ## Getting Started
