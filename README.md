@@ -74,8 +74,8 @@ project_16251_designpattern01/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/ngljcb/project_16251_designpattern01.git
-   cd project_16251_designpattern01
+   git clone https://github.com/ngljcb/project_16251_dpfilesystem.git
+   cd project_16251_dpfilesystem
    ```
 
 ## Usage
