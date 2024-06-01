@@ -36,31 +36,47 @@ This repository covers the following design patterns:
 ## Folder Structure
 
 ```
-project_16251_dpfilesystem/
+project_16251_designpattern01/
 ├── src/
-│   ├── mp/
-│   │   └── exercise/
-│   │       └── filesystem/
-│   │           ├── FileSystemDirectory.java
-│   │           ├── FileSystemDirectoryResourceEvent.java
-│   │           ├── FileSystemFile.java
-│   │           ├── FileSystemResource.java
-│   │           ├── FileSystemResourceAddedEvent.java
-│   │           ├── FileSystemResourceEvent.java
-│   │           ├── FileSystemResourceEventVisitor.java
-│   │           ├── FileSystemResourceObserver.java
-│   │           ├── FileSystemResourceRemovedEvent.java
-│   │           ├── FileSystemResourceRenameEvent.java
-│   │           ├── FileSystemVisitor.java
-│   │           └── FileSystemVisitorAdapter.java
-│   └── utils/
+│   └── mp/
+│       └── exercise/
+│           └── filesystem/
+│               ├── FileSystemDirectory.java
+│               ├── FileSystemDirectoryResourceEvent.java
+│               ├── FileSystemFile.java
+│               ├── FileSystemResource.java
+│               ├── FileSystemResourceAddedEvent.java
+│               ├── FileSystemResourceEvent.java
+│               ├── FileSystemResourceEventVisitor.java
+│               ├── FileSystemResourceObserver.java
+│               ├── FileSystemResourceRemovedEvent.java
+│               ├── FileSystemResourceRenameEvent.java
+│               ├── FileSystemVisitor.java
+│               ├── FileSystemVisitorAdapter.java
+│               └── utils/
+│                   ├── DirectoryFilesCollectionSupplier.java
+│                   ├── DirectoryFilesCollectorObserver.java
+│                   ├── DirectoryLoggerObserver.java
+│                   ├── FileSystemLsVisitor.java
+│                   ├── FileSystemNonRecursiveLsVisitor.java
+│                   ├── FileSystemPrinter.java
+│                   ├── FileSystemUtils.java
+│                   ├── ResourceLs.java
+│                   ├── ResourceLsDecorator.java
+│                   ├── ResourceLsName.java
+│                   ├── ResourceLsSize.java
+│                   └── ResourceLsType.java
 └── tests/
     └── mp/
         └── exercise/
             └── filesystem/
                 ├── FileSystemDirectoryTest.java
                 ├── FileSystemFileTest.java
-                └── MockFileSystemResourceObserver.java
+                ├── MockFileSystemResourceObserver.java
+                └── utils/
+                    ├── DirectoryFilesCollectorObserverTest.java
+                    ├── DirectoryLoggerObserverTest.java
+                    └── FileSystemPrinterTest.java
 
 ```
 
